@@ -1,0 +1,24 @@
+.info {
+    background: white;
+    font-size: 21pt;
+    color: black;
+    font-family: "HelveticaRegular";
+    padding-left: 20px;
+}
+
+.info p {
+    margin-bottom: 0px;
+}
+
+.buttons {
+    margin: 0 auto;
+}
+
+.buttons button {
+    width: 120px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.buttons :first-child{
+    margin-top: 10px;
+}

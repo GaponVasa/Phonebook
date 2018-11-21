@@ -1,0 +1,80 @@
+/*This file contain our wrapper, styles for background and fonts */
+
+
+/*Part with header*/
+
+body {
+  /*background-image: url("../images/bg.jpg");*/
+  margin-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 900px;
+  height: auto;
+  background-color: #bbb;
+}
+
+.nav {
+  justify-content: space-around;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav-item {
+  text-decoration: none !important;
+  margin: 0;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  word-spacing: 30px;
+  line-height: 0.8;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__nav-item :hover {
+  color: darkblue;
+}
+
+.header_nav-item_green :hover {
+  color: green;
+}
+
+
+/*Fonts*/
+
+
+/* font-family: "HelveticaRegular"; */
+
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* font-family: "HelveticaLight"; */
+
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot");
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaLight/HelveticaLight.woff") format("woff"), url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* font-family: "HelveticaThin"; */
+
+@font-face {
+  font-family: "HelveticaThin";
+  src: url("../fonts/HelveticaThin/HelveticaThin.eot");
+  src: url("../fonts/HelveticaThin/HelveticaThin.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaThin/HelveticaThin.woff") format("woff"), url("../fonts/HelveticaThin/HelveticaThin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

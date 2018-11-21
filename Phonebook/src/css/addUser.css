@@ -1,0 +1,21 @@
+.form-control {
+    border-radius: 0;
+    border: 0;
+    font-size: 14pt;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.main p {
+    font-family: "HelveticaRegular";
+    font-size: 16pt;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.successBut button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 200px;
+}

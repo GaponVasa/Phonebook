@@ -1,0 +1,44 @@
+main .enteredNum {
+    text-align: center;
+    font-size: 22pt;
+    font-family: "HelveticaLight";
+    margin-bottom: 0;
+}
+
+main .enteredNum input {
+    width: 250px;
+    text-align: center;
+    border: none;
+    background-color: inherit;
+}
+
+main .buttonsWithNumbers {
+    font-size: 0;
+    margin-top: 7px;
+    text-align: center;
+}
+
+main .buttonsWithNumbers button {
+    border-radius: 0;
+    background-color: #bcffaf;
+    width: 70px;
+    height: 70px;
+    border: 0px;
+    font-size: 15pt;
+    font-family: "HelveticaThin";
+}
+
+main .buttonsWithNumbers button:focus {
+    background-color: #bcffaf;
+    box-shadow: none;
+}
+
+#add {
+    width: 210px;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #7fff79;
+    color: black;
+    font-family: "HelveticaRegular";
+}
